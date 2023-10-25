@@ -20,5 +20,3 @@ if (not binary_input1.isdigit() or not binary_input2.isdigit() or
 else:
     product = binary_multiplier_3bit(binary_input1, binary_input2)
     print(f"Product of the two 3-bit binary numbers: {product}")
-
-        
