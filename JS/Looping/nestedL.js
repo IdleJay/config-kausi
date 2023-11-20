@@ -4,7 +4,8 @@ for (var year = 2023; year < 2025; year++) {
     for (var month =6; month < 9; month++) {
         console.log("--------", month)
     }
-} */
+} 
+*/
 
 
 /* building a multiplication table for the kids
