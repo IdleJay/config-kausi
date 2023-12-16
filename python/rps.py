@@ -1,15 +1,14 @@
 import random
 
 choices = ["Rock", "Paper", "Scissors"]
-cpu = random.choice(choices)
-user = False
 cpu_score = 0
 user_score = 0
 
 while True:
-    user = input("Rock, Paper, or Scissors? ").capitalize()  # Corrected spelling of 'capitalize'
+    cpu = random.choice(choices)  # CPU's choice for each round
+    user = input("Rock, Paper, or Scissors? ").capitalize()
     
-    if user == "Quit":  # Option to quit the game
+    if user == "Quit":  
         print("Final Scores:")
         print(f"CPU Score: {cpu_score}")
         print(f"Your Score: {user_score}")
@@ -45,7 +44,4 @@ while True:
             print("You win!", user, "cuts", cpu)
             user_score += 1
     
-    cpu = random.choice(choices)  # Update CPU's choice for the next round
     print(f"Your Score: {user_score} | CPU Score: {cpu_score}")
-
-        
