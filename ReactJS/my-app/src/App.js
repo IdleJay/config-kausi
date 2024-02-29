@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-
-function Header() {
-  return <h1>Hello World</h1>;
-}
-function App() {
-  return <Header />;
-}
-
-export default App;
+export function App(props) {
+    return(
+        <h1>{props.title}</h1>
+    );
+};
