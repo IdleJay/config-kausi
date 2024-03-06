@@ -1,7 +1,10 @@
-import React from 'react';
+import Btn from './Btn';
+import './App.css';
 
-export function App(props) {
-    return(
-        <h1>{props.title}</h1>
+function App() {
+    return (
+        <Btn />
     );
-};
+}
+
+export default App;
